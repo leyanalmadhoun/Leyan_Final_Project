@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    android:layoutDirection="locale">
+
+    <TextView
+        android:id="@+id/tvTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_title"
+        android:textSize="32sp"
+        android:textColor="@color/textDark"
+        android:textStyle="bold"
+        android:layout_marginBottom="12dp"/>
+
+
+    <TextView
+        android:id="@+id/tvDeliveryDetails"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_delivery_details"
+        android:paddingBottom="12dp"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/etAddress"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:hint="@string/checkout_address_hint"
+        android:background="@drawable/bg_input"
+        android:padding="12dp"
+        android:layout_marginBottom="12dp" />
+
+    <EditText
+        android:id="@+id/etPhone"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:inputType="phone"
+        android:hint="@string/checkout_phone_hint"
+        android:background="@drawable/bg_input"
+        android:padding="12dp"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:id="@+id/tvPaymentMethod"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/checkout_payment_method"
+        android:textStyle="bold"
+        android:paddingBottom="6dp" />
+
+    <RadioGroup
+        android:id="@+id/rgPayment"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="16dp">
+
+        <RadioButton
+            android:id="@+id/rbCash"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkout_cash_on_delivery" />
+
+        <RadioButton
+            android:id="@+id/rbCard"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/checkout_credit_debit_card" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/btnConfirm"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:text="@string/checkout_confirm"
+        android:textColor="@color/textLight"
+        android:background="@drawable/bg_primary_btn" />
+</LinearLayout>

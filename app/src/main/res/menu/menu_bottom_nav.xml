@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <item
+        android:id="@+id/nav_menu"
+        android:title="@string/nav_menu"
+        android:icon="@drawable/baseline_book_24" />
+    <item
+        android:id="@+id/nav_cart"
+        android:title="@string/nav_cart"
+        android:icon="@drawable/baseline_add_shopping_cart_24" />
+    <item
+        android:id="@+id/nav_orders"
+        android:title="@string/nav_orders"
+        android:icon="@drawable/icons_order" />
+
+    <item
+        android:id="@+id/nav_map"
+        android:title="@string/map"
+        android:icon="@drawable/iconslocation" />
+    <item
+        android:id="@+id/nav_profile"
+        android:title="@string/nav_profile"
+        android:icon="@drawable/baseline_co_present_24" />
+
+
+
+</menu>

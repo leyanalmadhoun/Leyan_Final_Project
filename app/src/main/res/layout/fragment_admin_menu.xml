@@ -1,0 +1,25 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp">
+
+    <EditText
+        android:id="@+id/etDishName"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Dish Name" />
+
+    <EditText
+        android:id="@+id/etDishPrice"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:inputType="numberDecimal"
+        android:hint="Dish Price" />
+
+    <Button
+        android:id="@+id/btnAddDish"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Add Dish" />
+</LinearLayout>

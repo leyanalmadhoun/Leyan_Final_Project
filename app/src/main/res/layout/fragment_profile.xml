@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.core.widget.NestedScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true"
+    android:clipToPadding="false"
+    android:padding="16dp"
+    android:paddingBottom="24dp"
+    android:background="@color/colorBackground">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <FrameLayout
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_gravity="center_horizontal">
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                app:cardCornerRadius="60dp"
+                app:cardUseCompatPadding="true"
+                app:cardBackgroundColor="?attr/colorSurface">
+
+                <ImageView
+                    android:id="@+id/imgProfile"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:scaleType="centerCrop"
+                    android:src="@drawable/baseline_co_present_24"
+                    android:contentDescription="@string/app_name"
+                    android:clickable="true"
+                    android:focusable="true"/>
+            </androidx.cardview.widget.CardView>
+
+            <ImageView
+                android:id="@+id/btnEditImage"
+                android:layout_width="36dp"
+                android:layout_height="36dp"
+                android:layout_gravity="bottom|end"
+                android:layout_margin="4dp"
+                android:background="@drawable/bg_card"
+                android:padding="6dp"
+                android:src="@drawable/baseline_add_box_24"
+                android:contentDescription="@string/app_name"
+                android:clickable="true"
+                android:focusable="true"/>
+        </FrameLayout>
+
+        <TextView
+            android:id="@+id/tvUserName"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/guest"
+            android:textStyle="bold"
+            android:textSize="20sp"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="12dp"/>
+
+        <TextView
+            android:id="@+id/tvEmail"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/textMuted"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="24dp"/>
+
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/full_name_hint"
+            android:textColorHint="@color/textMuted"
+            android:textColor="?attr/colorOnBackground"
+            android:background="@drawable/bg_input"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <EditText
+            android:id="@+id/etPhone"
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:hint="@string/phone_hint"
+            android:inputType="phone"
+            android:textColorHint="@color/textMuted"
+            android:textColor="?attr/colorOnBackground"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/bg_input"
+            android:paddingStart="16dp"
+            android:paddingEnd="16dp"/>
+
+        <Button
+            android:id="@+id/btnSave"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/save_changes"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/bg_primary_btn"
+            android:textColor="@color/textLight"/>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnDark"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/toggle_dark_mode"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnLang"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/ar_en"
+            android:layout_marginTop="8dp"/>
+
+        <Button
+            android:id="@+id/btnLogout"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:text="@string/log_out"
+            android:layout_marginTop="8dp"/>
+    </LinearLayout>
+</androidx.core.widget.NestedScrollView>

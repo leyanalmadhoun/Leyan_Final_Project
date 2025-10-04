@@ -1,0 +1,198 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- Global / Common -->
+    <string name="app_name">Food App</string>
+    <string name="ok">OK</string>
+    <string name="cancel">CANCEL</string>
+    <string name="add">ADD</string>
+    <string name="add_btn">Add</string>
+    <string name="continue_upper">CONTINUE</string>
+    <string name="checkout">Checkout</string>
+    <string name="total">Total</string>
+    <string name="log_out">Log Out</string>
+    <string name="toggle_dark_mode">Toggle Dark Mode</string>
+    <string name="ar_en">AR / EN</string>
+    <string name="skip">Skip</string>
+
+    <!-- Search / Home -->
+    <string name="hint_find_food">Find your food</string>
+
+    <!-- Onboarding -->
+    <string name="onb_title_1">Groceries to your door</string>
+    <string name="onb_sub_1">Order fresh food and daily essentials directly to your doorstep. Enjoy a safe, fast, and contact-free delivery experience with us.</string>
+    <string name="onb_title_2">All your favorite brands</string>
+    <string name="onb_sub_2">Browse top restaurants, cafés, and global food chains in one place. Discover exclusive offers and new flavors every day.</string>
+    <string name="onb_title_3">Tasty meals in minutes</string>
+    <string name="onb_sub_3">Track your order live in real-time and get your meals delivered hot and fresh. Delicious food made easy, whenever you need it.</string>
+    <string name="onb_quick_title">Quick Food Delivery</string>
+    <string name="onb_quick_sub">Loved the class! Such beautiful land and collective impact infrastructure social entrepreneur.</string>
+
+    <!-- Login -->
+    <string name="login_header">SIGN IN</string>
+    <string name="login_sub">Complete this step for best adjustment.</string>
+    <string name="email_hint">Your Email</string>
+    <string name="password_hint">Password</string>
+    <string name="remember_me">Remember Me</string>
+    <string name="forgot_password_q">Forgot password?</string>
+    <string name="or_continue">Or continue</string>
+    <string name="sign_in">SIGN IN</string>
+    <string name="sign_in_with_facebook">SIGN IN WITH FACEBOOK</string>
+    <string name="no_account_q">Don’t have an account? %1$s</string>
+    <string name="sign_up_link">Sign Up</string>
+
+    <!-- Register -->
+    <string name="register_header">SIGN UP</string>
+    <string name="register_sub">Complete this step for best adjustment.</string>
+    <string name="mobile_hint">Mobile</string>
+    <string name="accept_terms">I accepted all terms and conditions.</string>
+    <string name="sign_up">SIGN UP</string>
+    <string name="have_account_q">I already have an account? %1$s</string>
+    <string name="sign_in_link">Sign In</string>
+
+    <!-- Cart -->
+    <string name="cart_empty">Cart is empty</string>
+
+    <!-- Add to cart dialog -->
+    <string name="add_to_cart">Add to cart</string>
+
+    <!-- Orders -->
+    <string name="no_orders_yet">No orders yet</string>
+    <string name="order_again">Order Again</string>
+    <string name="mark_completed">Mark Completed</string>
+    <string name="status_pending">Pending</string>
+
+    <!-- Order details -->
+    <string name="order_id_fmt">#%1$s</string>
+
+    <!-- Profile -->
+    <string name="guest">Guest</string>
+    <string name="full_name_hint">Full Name</string>
+    <string name="phone_hint">Phone</string>
+    <string name="save_changes">Save Changes</string>
+
+    <!-- Forgot/Reset -->
+    <string name="forgot_header">FORGOT PASSWORD</string>
+    <string name="forgot_desc">Enter your email or phone to request a password reset</string>
+    <string name="your_email_or_phone">Your Email / Phone</string>
+    <string name="send_now">SEND NOW</string>
+
+    <string name="reset_header">Reset Password</string>
+    <string name="your_email">Your Email</string>
+    <string name="new_password">New Password</string>
+    <string name="confirm_password">Confirm Password</string>
+    <string name="reset_password">Reset Password</string>
+    <string name="back_to_sign_in">Back to Sign In</string>
+
+    <!-- Dishes / Cards -->
+    <string name="dish_sample">Dish name</string>
+    <string name="price_9_50">\$9.50</string>
+    <string name="price_9_90">\$9.90</string>
+
+    <!-- Categories -->
+    <string name="cat_all">All</string>
+    <string name="cat_fast">Fast food</string>
+    <string name="cat_heavy">Heavy food</string>
+    <string name="cat_starter">Starter</string>
+    <string name="cat_drinks">Drinks</string>
+    <string name="cat_dessert">Dessert</string>
+
+    <!-- Dishes -->
+    <string name="dish_pepperoni_pizza">Pepperoni Pizza</string>
+    <string name="dish_cheese_burger">Cheese Burger</string>
+    <string name="dish_chicken_shawarma">Chicken Shawarma</string>
+    <string name="dish_fries_box">Fries Box</string>
+    <string name="dish_beef_steak">Beef Steak</string>
+    <string name="dish_grilled_chicken">Grilled Chicken</string>
+    <string name="dish_meat_pasta">Meat Pasta</string>
+    <string name="dish_lasagna">Lasagna</string>
+    <string name="dish_bruschetta">Bruschetta</string>
+    <string name="dish_greek_salad">Greek Salad</string>
+    <string name="dish_spring_rolls">Spring Rolls</string>
+    <string name="dish_soup_of_day">Soup of the Day</string>
+    <string name="dish_iced_coffee">Iced Coffee</string>
+    <string name="dish_fresh_orange">Fresh Orange Juice</string>
+    <string name="dish_lemon_mint">Lemon Mint</string>
+    <string name="dish_milkshake">Milkshake</string>
+    <string name="dish_cheesecake">Cheesecake</string>
+    <string name="dish_chocolate_cake">Chocolate Cake</string>
+    <string name="dish_ice_cream">Ice Cream</string>
+    <string name="dish_tiramisu">Tiramisu</string>
+
+
+    <string name="orders_completed">Completed</string>
+    <string name="orders_pending">Pending</string>
+
+
+
+    <string name="nav_menu">Menu</string>
+    <string name="nav_orders">Orders</string>
+    <string name="nav_cart">Cart</string>
+    <string name="nav_profile">Profile</string>
+
+    <string name="added_order_to_cart_fmt">Added order #%1$s to cart</string>
+    <string name="channel_orders">Orders</string>
+    <string name="notif_title_order">Order placed</string>
+    <string name="notif_text_order">Your order #%1$s has been placed.</string>
+
+
+    <string name="map">Map</string>
+    <string name="google_maps_key">AIzaSyD2a7J4yzlgFla4TQb4IaSwgGT8Ty3HBnE</string>
+
+    <!-- Checkout screen -->
+    <string name="checkout_title">Checkout</string>
+    <string name="checkout_delivery_details">Delivery Details</string>
+    <string name="checkout_address_hint">Address</string>
+    <string name="checkout_phone_hint">Phone</string>
+    <string name="checkout_payment_method">Payment Method</string>
+    <string name="checkout_cash_on_delivery">Cash on delivery</string>
+    <string name="checkout_credit_debit_card">Credit / Debit Card</string>
+    <string name="checkout_confirm">CONFIRM</string>
+
+
+    <!-- Checkout / validation -->
+    <string name="required_field">Required</string>
+    <string name="select_payment_method">Please select a payment method</string>
+    <string name="order_placed_toast">Order placed!</string>
+
+    <string name="Foodify">Foodify</string>
+
+    <!-- generic -->
+    <string name="dlg_confirm_title">Confirm</string>
+    <string name="dlg_logout_title">Confirm Sign Out</string>
+    <string name="dlg_logout_msg">Are you sure you want to sign out?</string>
+    <string name="dlg_yes">Yes</string>
+    <string name="dlg_no">Cancel</string>
+    <string name="profile_updated">Profile updated</string>
+
+    <!-- Confirm Order dialog  -->
+    <string name="dlg_place_order_title">Confirm Order</string>
+    <string name="dlg_place_order_msg">Are you sure you want to place the order?</string>
+
+
+    <string-array name="dish_categories_keys">
+        <item>FAST</item>
+        <item>HEAVY</item>
+        <item>STARTER</item>
+        <item>DRINKS</item>
+        <item>DESSERT</item>
+    </string-array>
+
+    <string-array name="dish_categories_labels">
+        <item>@string/cat_fast</item>
+        <item>@string/cat_heavy</item>
+        <item>@string/cat_starter</item>
+        <item>@string/cat_drinks</item>
+        <item>@string/cat_dessert</item>
+    </string-array>
+
+    <string name="category">Category</string>
+
+    <string name="image_url_optional">Image URL (optional)</string>
+    <string name="pick_from_gallery">Pick from Gallery</string>
+    <string name="load_url">Load URL</string>
+    <string name="locale_tag">en</string>
+
+
+
+
+</resources>

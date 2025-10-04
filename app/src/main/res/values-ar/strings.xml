@@ -1,0 +1,174 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!-- عام -->
+    <string name="app_name">تطبيق الطعام</string>
+    <string name="ok">حسناً</string>
+    <string name="cancel">إلغاء</string>
+    <string name="add">إضافة</string>
+    <string name="add_btn">إضافة</string>
+    <string name="continue_upper">متابعة</string>
+    <string name="checkout">إتمام الطلب</string>
+    <string name="total">الإجمالي</string>
+    <string name="log_out">تسجيل الخروج</string>
+    <string name="toggle_dark_mode">تبديل الوضع الليلي</string>
+    <string name="ar_en">عربي / إنجليزي</string>
+    <string name="skip">تخطي</string>
+
+    <!-- البحث / الرئيسية -->
+    <string name="hint_find_food">ابحث عن طعامك</string>
+
+    <!-- الأونبوردينج -->
+    <string name="onb_title_1">بقالة إلى بابك</string>
+    <string name="onb_sub_1">اطلب المواد الطازجة والاحتياجات اليومية إلى عتبة منزلك. استمتع بتجربة توصيل آمنة وسريعة وبدون تلامس.</string>
+    <string name="onb_title_2">كل علامتك المفضلة</string>
+    <string name="onb_sub_2">تصفح أشهر المطاعم والمقاهي والعلامات العالمية في مكان واحد. اكتشف عروضًا حصرية ونكهات جديدة كل يوم.</string>
+    <string name="onb_title_3">وجبات شهية خلال دقائق</string>
+    <string name="onb_sub_3">تابع طلبك مباشرةً واستلم وجبتك وهي ساخنة وطازجة. طعام لذيذ بكل سهولة وقتما تشاء.</string>
+    <string name="onb_quick_title">توصيل طعام سريع</string>
+    <string name="onb_quick_sub">نص تجريبي عن مزايا التوصيل وتتبع الطلب والوجبات الشهية.</string>
+
+    <!-- تسجيل الدخول -->
+    <string name="login_header">تسجيل الدخول</string>
+    <string name="login_sub">أكمل هذه الخطوة لتحصل على أفضل تجربة.</string>
+    <string name="email_hint">البريد الإلكتروني</string>
+    <string name="password_hint">كلمة المرور</string>
+    <string name="remember_me">تذكرني</string>
+    <string name="forgot_password_q">نسيت كلمة السر؟</string>
+    <string name="or_continue">أو المتابعة</string>
+    <string name="sign_in">تسجيل الدخول</string>
+    <string name="sign_in_with_facebook">تسجيل الدخول عبر فيسبوك</string>
+    <string name="no_account_q">ليس لدي حساب؟ %1$s</string>
+    <string name="sign_up_link">إنشاء حساب</string>
+
+    <!-- إنشاء حساب -->
+    <string name="register_header">إنشاء حساب</string>
+    <string name="register_sub">أكمل هذه الخطوة لتحصل على أفضل تجربة.</string>
+    <string name="mobile_hint">رقم الهاتف</string>
+    <string name="accept_terms">أوافق على جميع الشروط والأحكام.</string>
+    <string name="sign_up">إنشاء حساب</string>
+    <string name="have_account_q">لدي حساب بالفعل؟ %1$s</string>
+    <string name="sign_in_link">تسجيل الدخول</string>
+
+    <!-- السلة -->
+    <string name="cart_empty">السلة فارغة</string>
+
+    <!-- حوار إضافة للسلة -->
+    <string name="add_to_cart">أضف إلى السلة</string>
+
+    <!-- الطلبات -->
+    <string name="no_orders_yet">لا توجد طلبات بعد</string>
+    <string name="order_again">أعد الطلب</string>
+    <string name="mark_completed">تم الإنجاز</string>
+    <string name="status_pending">قيد الانتظار</string>
+
+    <!-- تفاصيل الطلب -->
+    <string name="order_id_fmt">#%1$s</string>
+
+    <!-- البروفايل -->
+    <string name="guest">ضيف</string>
+    <string name="full_name_hint">الاسم الكامل</string>
+    <string name="phone_hint">الهاتف</string>
+    <string name="save_changes">حفظ التغييرات</string>
+
+    <!-- نسيت/إعادة كلمة السر -->
+    <string name="forgot_header">نسيت كلمة السر</string>
+    <string name="forgot_desc">أدخل بريدك الإلكتروني أو رقم هاتفك لطلب إعادة تعيين كلمة السر</string>
+    <string name="your_email_or_phone">بريدك الإلكتروني / هاتفك</string>
+    <string name="send_now">إرسال الآن</string>
+
+    <string name="reset_header">إعادة تعيين كلمة السر</string>
+    <string name="your_email">بريدك الإلكتروني</string>
+    <string name="new_password">كلمة سر جديدة</string>
+    <string name="confirm_password">تأكيد كلمة السر</string>
+    <string name="reset_password">إعادة تعيين كلمة السر</string>
+    <string name="back_to_sign_in">العودة لتسجيل الدخول</string>
+
+    <!-- أطباق / بطاقات -->
+    <string name="dish_sample">اسم الطبق</string>
+
+    <!-- التصنيفات -->
+    <string name="cat_all">الكل</string>
+    <string name="cat_fast">وجبات سريعة</string>
+    <string name="cat_heavy">أكلات دسمة</string>
+    <string name="cat_starter">مقبلات</string>
+    <string name="cat_drinks">مشروبات</string>
+    <string name="cat_dessert">حلويات</string>
+
+    <!-- الأطباق -->
+    <string name="dish_pepperoni_pizza">بيتزا ببروني</string>
+    <string name="dish_cheese_burger">تشيز برغر</string>
+    <string name="dish_chicken_shawarma">شاورما دجاج</string>
+    <string name="dish_fries_box">علبة بطاطا</string>
+    <string name="dish_beef_steak">ستيك لحم</string>
+    <string name="dish_grilled_chicken">دجاج مشوي</string>
+    <string name="dish_meat_pasta">باستا باللحم</string>
+    <string name="dish_lasagna">لازانيا</string>
+    <string name="dish_bruschetta">بروسكيتا</string>
+    <string name="dish_greek_salad">سلطة يونانية</string>
+    <string name="dish_spring_rolls">سبرنغ رولز</string>
+    <string name="dish_soup_of_day">شوربة اليوم</string>
+    <string name="dish_iced_coffee">قهوة مثلجة</string>
+    <string name="dish_fresh_orange">عصير برتقال طازج</string>
+    <string name="dish_lemon_mint">ليمون نعنع</string>
+    <string name="dish_milkshake">ميلك شيك</string>
+    <string name="dish_cheesecake">تشيزكيك</string>
+    <string name="dish_chocolate_cake">كيك شوكولاتة</string>
+    <string name="dish_ice_cream">آيس كريم</string>
+    <string name="dish_tiramisu">تيراميسو</string>
+
+
+    <string name="orders_completed">مكتملة</string>
+    <string name="orders_pending">قيد الانتظار</string>
+
+
+    <string name="nav_menu">القائمة</string>
+    <string name="nav_orders">الطلبات</string>
+    <string name="nav_cart">السلة</string>
+    <string name="nav_profile">الملف</string>
+
+    <string name="added_order_to_cart_fmt">تمت إضافة الطلب #%1$s إلى السلة</string>
+    <string name="channel_orders">الطلبات</string>
+    <string name="notif_title_order">تم إنشاء الطلب</string>
+    <string name="notif_text_order">تم إنشاء الطلب رقم ‎%1$s.</string>
+    <string name="google_maps_key">AIza...YOUR_REAL_KEY...xyz</string>
+
+
+    <!-- شاشة الدفع -->
+    <string name="checkout_title">الدفع</string>
+    <string name="checkout_delivery_details">تفاصيل التوصيل</string>
+    <string name="checkout_address_hint">العنوان</string>
+    <string name="checkout_phone_hint">رقم الهاتف</string>
+    <string name="checkout_payment_method">طريقة الدفع</string>
+    <string name="checkout_cash_on_delivery">الدفع عند الاستلام</string>
+    <string name="checkout_credit_debit_card">بطاقة ائتمان / خصم</string>
+    <string name="checkout_confirm">تأكيد</string>
+
+
+    <!-- شاشة الدفع / تحقق -->
+    <string name="required_field">مطلوب</string>
+    <string name="select_payment_method">يرجى اختيار طريقة الدفع</string>
+    <string name="order_placed_toast">تم إنشاء الطلب!</string>
+
+
+    <!-- generic (تترك مرة واحدة) -->
+    <string name="dlg_confirm_title">تأكيد</string>
+    <string name="dlg_logout_title">تأكيد تسجيل الخروج</string>
+    <string name="dlg_logout_msg">هل أنت متأكد أنك تريد تسجيل الخروج؟</string>
+    <string name="dlg_yes">نعم</string>
+    <string name="dlg_no">إلغاء</string>
+    <string name="profile_updated">تم تحديث الملف الشخصي</string>
+
+    <!-- حوار تأكيد الطلب (العنوان + الرسالة فقط) -->
+    <string name="dlg_place_order_title">تأكيد الطلب</string>
+    <string name="dlg_place_order_msg">هل أنت متأكد أنك تريد إتمام الطلب؟</string>
+
+
+    <string name="image_url_optional">رابط الصورة (اختياري)</string>
+    <string name="pick_from_gallery">اختيار من المعرض</string>
+    <string name="load_url">تحميل من رابط</string>
+
+    <!-- بدائل جاهزة إذا ما كانت موجودة -->
+    <string name="price_9_90">9.90$</string>
+    <string name="category">التصنيف</string>
+    <string name="locale_tag">ar</string>
+</resources>

@@ -1,0 +1,31 @@
+<resources>
+    <!-- Brand -->
+    <color name="colorPrimary">#FF2D8D</color>
+    <color name="colorPrimaryDark">#C51E6A</color>
+    <color name="colorAccent">#FFA3CF</color>
+
+    <!-- Light -->
+    <color name="colorBackground">#FFF6F6F8</color>     <!-- خلفية عامة لو حابة -->
+    <color name="backgroundLight">#FFF6F6F8</color>     <!-- الوردي الفاتح جداً للشاشات -->
+    <color name="colorSurface">#FFFFFFFF</color>        <!-- كروت/بطاقات -->
+    <color name="colorOnBackground">#000000</color>
+    <color name="textLight">#FFFFFFFF</color>
+    <color name="textDark">#212121</color>
+    <color name="textMuted">#7A7A7A</color>
+
+    <!-- Borders / ripple -->
+    <color name="borderStroke">#22000000</color>
+    <color name="ripplePrimary">#26FF2D8D</color>
+
+    <!-- للتقييم -->
+    <color name="starGold">#FFC107</color>
+
+    <!-- chip background / stroke / text -->
+    <color name="chipBgSelected">#FF2D8D</color>   <!-- فوشي -->
+    <color name="chipBgNormal">#FFF6F6F6</color>   <!-- رمادي فاتح جداً -->
+    <color name="chipStroke">#1D181818</color>     <!-- حدود خفيفة -->
+
+    <color name="chipTextSelected">#FFFFFFFF</color> <!-- أبيض -->
+    <color name="chipTextNormal">#FF000000</color>   <!-- أسود -->
+    <color name="outlineVariant">#33000000</color>
+</resources>

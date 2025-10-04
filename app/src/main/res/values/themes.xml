@@ -1,0 +1,25 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <style name="Base.Theme.Leyan_Final_Project" parent="Theme.Material3.DayNight.NoActionBar">
+        <item name="android:windowBackground">@color/backgroundLight</item>
+
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/colorPrimaryDark</item>
+        <item name="colorOnPrimary">@color/textLight</item>
+
+        <item name="colorSecondary">@color/colorAccent</item>
+        <item name="colorOnSecondary">@color/textLight</item>
+
+        <item name="android:colorBackground">@color/backgroundLight</item>
+        <item name="colorOnBackground">@color/colorOnBackground</item>
+
+        <item name="colorSurface">@color/colorSurface</item>
+        <item name="colorOnSurface">@color/colorOnBackground</item>
+
+        <item name="colorControlHighlight">@color/ripplePrimary</item>
+
+        <item name="android:statusBarColor">?attr/colorPrimaryVariant</item>
+        <item name="android:windowLightStatusBar">true</item>
+    </style>
+
+    <style name="Theme.Leyan_Final_Project" parent="Base.Theme.Leyan_Final_Project"/>
+</resources>

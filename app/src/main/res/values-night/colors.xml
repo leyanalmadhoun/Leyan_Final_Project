@@ -1,0 +1,30 @@
+<resources>
+    <!-- Brand -->
+    <color name="colorPrimary">#FF2D8D</color>
+    <color name="colorPrimaryDark">#C51E6A</color>
+    <color name="colorAccent">#FFA3CF</color>
+
+    <!-- Dark -->
+    <color name="colorBackground">#121212</color>
+    <color name="backgroundLight">#121212</color>       <!-- نفس الخلفية في الداكن -->
+    <color name="colorSurface">#1E1E1E</color>          <!-- بطاقات أغمق قليلاً -->
+    <color name="colorOnBackground">#FFFFFFFF</color>
+    <color name="textLight">#FFFFFFFF</color>
+    <color name="textDark">#DEDEDE</color>
+    <color name="textMuted">#B3FFFFFF</color>
+
+    <!-- Borders / ripple -->
+    <color name="borderStroke">#33FFFFFF</color>
+    <color name="ripplePrimary">#26FF2D8D</color>
+
+    <!-- للتقييم -->
+    <color name="starGold">#FFC107</color>
+
+
+    <color name="chipBgSelected">#FF2D8D</color>
+    <color name="chipBgNormal">#1E1E1E</color>     <!-- خلفية داكنة للchip غير المختارة -->
+    <color name="chipStroke">#33FFFFFF</color>     <!-- حدود فاتحة خفيفة -->
+
+    <color name="chipTextSelected">#FFFFFFFF</color>
+    <color name="chipTextNormal">#DEDEDE</color>
+</resources>
